@@ -1,12 +1,29 @@
-const myPrice = 100;
+const myFruit = 'イチゴ';
 
-if (myPrice >= 50) {
-  alert('myPriceは50以上です');
-} else if (myPrice >= 10) {
-  alert('myPriceは10以上50未満です');
-} else {
-  alert('myPriceは10未満です');
+switch (myFruit) {
+  case 'りんご':
+    alert('りんごです');
+    break;
+
+    case 'みかん':
+      alert('みかんです');
+      break;
+
+      default:
+        alert('その他です');
+        break;
 }
 
+/*複数の値をまとめて処理
 
+const myFruit = 'りんご';
+
+switch (myFruit) {
+  case 'りんご':
+  case 'みかん':
+    alert('りんごかみかんです');
+    break;
+    default:
+      alert('その他です');
+}*/
 
