@@ -1,29 +1,12 @@
-const myFruit = 'イチゴ';
+let number = 1;
 
-switch (myFruit) {
-  case 'りんご':
-    alert('りんごです');
-    break;
-
-    case 'みかん':
-      alert('みかんです');
-      break;
-
-      default:
-        alert('その他です');
-        break;
+while (number <= 50) {
+    console.log(number);
+    number += 1;
 }
 
-/*複数の値をまとめて処理
+//変数numberを1と定義して100までの数字を出力する
 
-const myFruit = 'りんご';
-
-switch (myFruit) {
-  case 'りんご':
-  case 'みかん':
-    alert('りんごかみかんです');
-    break;
-    default:
-      alert('その他です');
+/*for(let number = 1; number <= 100; number **) {
+  console.log(number);
 }*/
-
