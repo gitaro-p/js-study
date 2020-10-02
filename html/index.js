@@ -1,7 +1,12 @@
-let today = new Date();
-let hour = today.getHours();
-let min = today.getMinutes();
-let sec = today.getSeconds();
+const myPrice = 100;
 
-document.write(`${hour}時 ${min}分 ${sec}秒`);
+if (myPrice >= 50) {
+  alert('myPriceは50以上です');
+} else if (myPrice >= 10) {
+  alert('myPriceは10以上50未満です');
+} else {
+  alert('myPriceは10未満です');
+}
+
+
 
